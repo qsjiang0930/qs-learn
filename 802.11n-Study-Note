@@ -1,0 +1,24 @@
+802.11n: A Survival Guide
+Introduce
+        History:  1.802.11n’s appeal can be summed up in one word—speed.
+                  2.A decade ago, it was routine to estimate the flat-out top speed of a wireless LAN by taking the “headline” rate promised by the PHY and cutting it in half. 
+                   Various forms of protocol overhead, such as medium contention and positive acknowledgment, 
+                       meant that the best-case scenario for 802.11 was that the 802.11 MAC had approximately 50% efficiency.
+                   In 802.11b, the 11 Mbps transmission speed topped out at 5-6 Mbps of throughput; in 802.11a/g, the 54 Mbps transmission speed resulted in 25-30 Mbps of throughput.
+                    
+        PHY Layer : 
+                    1.MINO :In a MIMO system, the transmitter and receiver can take advantage of multiple paths. 
+                          Each path gets a different set of data, and therefore, the resulting transmission is not subject to the same destructive effects of multipath interference. 
+                          In fact, without multiple paths, the benefits of MIMO are significantly limited.
+
+                    2.Frequency agnostic: bw=40M on 5Ghz, 40 MHz channels must be disabled by default in the 2.4 GHz band (maybe interfere bluetooth)
+                    3.MIMO technology can also be enhanced for beamforming
+                    
+        MAC Layer:  1.aggregation;
+                    2.power save.
+       First We Take the LAN, Then We Take the World：
+                      1.never confuse standardization with building a product
+                     2.With a complex standard such as 802.11, trade organizations serve a valuable purpose in focusing development effort on the most valuable features for end users.
+
+PART I：The PHY
+PART II：The MAC
